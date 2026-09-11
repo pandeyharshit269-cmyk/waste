@@ -59,7 +59,7 @@ class Userbot(Client):
         client.mention = ub.me.mention
         self.clients.append(client)
         try:
-            await ub.join_chat("AloneUpdates")
+            await ub.join_chat("TNL_NETWORK")
         except:
             pass
         logger.info(f"Assistant {num} started as @{client.username}")
